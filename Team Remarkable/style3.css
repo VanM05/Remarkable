@@ -1,0 +1,188 @@
+header img {
+    height: 70px;
+   
+ }
+
+/*Navbar which stays at the top*/
+header {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    margin-bottom: 100px;
+    
+ }
+ 
+ header * {
+    display: inline;
+    
+ }
+ 
+ header li {
+    margin: 7px;
+   
+ }
+ 
+ header li a {
+    color: black;
+    text-decoration: none;
+    
+    
+ }
+ 
+ .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(126, 161, 201);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*Profile page*/
+  .Name {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Oswald";
+    font-weight:bold;
+    margin-top: 3cm;
+  }
+  .profilepic {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1cm;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .quote {
+    font-family: "Oswald";
+    text-align: center;
+  
+  }
+  .quotetext {
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  }
+  
+  h2 {
+    font-family: "Oswald";
+    margin-top: 1.5cm ;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+  
+  }
+  
+  .container {
+    height: 20px;
+    position: relative;
+   
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color: #3822ff; 
+    color: white;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .social {
+    margin-left: 17.3cm;
+  }
